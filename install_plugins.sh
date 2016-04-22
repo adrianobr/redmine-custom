@@ -27,9 +27,10 @@ git clone https://github.com/Undev/redmine_close_button.git
 
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
-cd redmine_emojibutton bundle install
+cd redmine_emojibutton 
+bundle install
 cd ..
-bundle exec rake emoji
+
 
 echo "Gamification plugin"
 git clone git://github.com/mauricio-camayo/redmine_gamification_plugin
@@ -123,3 +124,19 @@ git clone https://github.com/staskie/simple_author_change.git
 
 echo "Timelog Timer plugin"
 git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
+
+
+cd..
+
+echo "Finalizado a instalação de plugins"
+echo ""
+
+
+echo"---INICIANDO bundle install test---"
+bundle install --without development test
+
+echo "Rake Emoji Imagens"
+bundle exec rake emoji
+
+echo "Executando migrations de todos os plugins"
+bundle exec rake redmine:plugins:migrate RAILS_ENV=production
