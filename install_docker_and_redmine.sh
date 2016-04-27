@@ -42,8 +42,6 @@ echo ""
 echo "seuip:10083"
 echo "usuario e senha: admin"
 echo "adrianojosebaptistella@gmail.com"
-docker-compose up -d
-git clone https://github.com/sameersbn/docker-redmine.git
 
 
 
