@@ -202,3 +202,8 @@ echo "Timelog Timer plugin"
 cd timelog_timer
 git pull
 cd ..
+
+echo "Integrator 0800Net"
+cd integrator0800
+git pull
+cd ..
