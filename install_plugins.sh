@@ -26,7 +26,7 @@ echo "Redmine Close Button"
 git clone https://github.com/Undev/redmine_close_button.git
 
 echo "Integrador 0800Net"
-git clone https://github.com/adrianobr/integrator0800.git
+git clone https://github.com/ebaptistella/integrator0800.git
 
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
