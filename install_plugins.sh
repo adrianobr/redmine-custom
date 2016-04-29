@@ -41,9 +41,6 @@ git clone git://github.com/mauricio-camayo/redmine_gamification_plugin
 echo "Redmine Graphs plugin"
 git clone https://github.com/bradbeattie/redmine-graphs-plugin.git
 
-echo "Redmine Hotkeys Js plugin"
-git clone https://github.com/sasha-ch/redmine_hotkeys_js.git
-
 echo "Redmine Issue Badge plugin"
 git clone https://github.com/akiko-pusu/redmine_issue_badge.git
 
