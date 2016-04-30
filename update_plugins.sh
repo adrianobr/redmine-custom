@@ -54,7 +54,7 @@ git pull
 cd ..
 
 echo "Redmine Graphs plugin"
-cd redmine-graphs-plugin
+cd redmine-graphs
 git pull
 cd ..
 
