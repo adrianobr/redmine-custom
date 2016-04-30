@@ -28,18 +28,14 @@ git clone https://github.com/Undev/redmine_close_button.git
 echo "Integrador 0800Net"
 git clone https://github.com/ebaptistella/integrator0800.git
 
-echo "Redmine Emoji Button"
-git clone https://github.com/paginagmbh/redmine_emojibutton.git
-cd redmine_emojibutton 
-bundle install
-cd ..
-
-
 echo "Gamification plugin"
 git clone git://github.com/mauricio-camayo/redmine_gamification_plugin
 
 echo "Redmine Graphs plugin"
-git clone https://github.com/bradbeattie/redmine-graphs-plugin.git
+git clone https://github.com/bradbeattie/redmine-graphs-plugin.git redmine_graphs
+
+echo "Redmine Hotkeys Js plugin"		
+git clone https://github.com/sasha-ch/redmine_hotkeys_js.git
 
 echo "Redmine Issue Badge plugin"
 git clone https://github.com/akiko-pusu/redmine_issue_badge.git
@@ -125,14 +121,17 @@ git clone https://github.com/staskie/simple_author_change.git
 echo "Timelog Timer plugin"
 git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
 
+echo "Redmine Emoji Button"
+git clone https://github.com/paginagmbh/redmine_emojibutton.git
+cd redmine_emojibutton 
+bundle install
+cd ..
 
 cd..
-
 echo "Finalizado a instalação de plugins"
 echo ""
 
-
-echo"---INICIANDO bundle install test---"
+echo "---INICIANDO bundle install test---"
 bundle install --without development test
 
 echo "Rake Emoji Imagens"
