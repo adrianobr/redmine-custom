@@ -58,6 +58,9 @@ git clone https://github.com/tleish/redmine_jstoolbar_ext.git
 echo "Redmine jsToolbar Buttons Extension"
 git clone https://github.com/tleish/redmine_jstoolbar_ext_buttons.git
 
+echo "Ext CodeRay"
+git clone https://github.com/tleish/redmine_jstoolbar_ext_coderay
+
 echo "Redmine Lightbox 2"
 git clone https://github.com/paginagmbh/redmine_lightbox2.git
 
