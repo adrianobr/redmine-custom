@@ -7,6 +7,10 @@ cd ..
 echo "Gitmike"
 cd gitmike
 git pull
+cd images
+mv logo.png logo_bkp.png
+wget https://github.com/adrianobr/redmine-custom/blob/master/logo.png
+cd ..
 cd ..
 
 echo "Highrise"
