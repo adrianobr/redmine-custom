@@ -217,3 +217,8 @@ echo "Redmine Mentions"
 cd redmine_mentions
 git pull
 cd ..
+
+echo "Stuff To Do"
+cd stuff_to_do_plugin
+git pull
+cd ..
