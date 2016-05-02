@@ -212,3 +212,8 @@ echo "Integrator 0800Net"
 cd integrator0800
 git pull
 cd ..
+
+echo "Redmine Mentions"
+cd redmine_mentions
+git pull
+cd ..
