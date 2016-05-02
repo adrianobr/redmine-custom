@@ -93,6 +93,11 @@ cd redmine_jstoolbar_ext
 git pull
 cd ..
 
+echo "Redmine Ext CodeRay"
+cd redmine_jstoolbar_ext_coderay
+git pull
+cd ..
+
 echo "Redmine jsToolbar Buttons Extension"
 cd redmine_jstoolbar_ext_buttons
 git pull
