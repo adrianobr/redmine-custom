@@ -218,6 +218,11 @@ cd redmine_mentions
 git pull
 cd ..
 
+echo "Notify Users"
+cd notify_custom_users
+git pull
+cd ..
+
 echo "Stuff To Do"
 cd stuff_to_do_plugin
 git pull
