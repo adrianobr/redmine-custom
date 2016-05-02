@@ -127,6 +127,9 @@ git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
 echo "Redmine Mentions"
 git clone https://github.com/arkhitech/redmine_mentions.git
 
+echo "Stuff To Do"
+git clone https://github.com/Undev/redmine-stuff-to-do-plugin.git stuff_to_do_plugin
+
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
 cd redmine_emojibutton 
