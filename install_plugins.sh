@@ -124,6 +124,9 @@ git clone https://github.com/staskie/simple_author_change.git
 echo "Timelog Timer plugin"
 git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
 
+echo "Redmine Mentions"
+git clone https://github.com/arkhitech/redmine_mentions.git
+
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
 cd redmine_emojibutton 
