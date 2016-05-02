@@ -4,6 +4,11 @@ git clone https://github.com/RCRM/circle.git
 
 echo "Gitmike"
 git clone https://github.com/makotokw/redmine-theme-gitmike.git gitmike
+cd gitmike/images/
+mv logo.png logo_bkp.png
+wget https://github.com/adrianobr/redmine-custom/blob/master/logo.png
+cd ..
+cd ..
 
 echo "Highrise"
 git clone https://github.com/RCRM/highrise.git
