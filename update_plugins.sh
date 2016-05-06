@@ -1,3 +1,5 @@
+cd plugins/
+
 echo "Accept plugin"
 cd accept
 git pull
@@ -227,3 +229,5 @@ echo "Stuff To Do"
 cd stuff_to_do_plugin
 git pull
 cd ..
+
+echo "Finalizado"
