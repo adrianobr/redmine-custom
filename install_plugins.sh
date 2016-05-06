@@ -140,7 +140,7 @@ cd redmine_emojibutton
 bundle install
 cd ..
 
-cd..
+cd ..
 echo "Finalizado a instalação de plugins"
 echo ""
 
