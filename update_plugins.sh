@@ -83,7 +83,7 @@ cd ..
 
 echo "Redmine Issue Favicon plugin"
 cd redmine_issue_favicon
-git pull
+hg pull
 cd ..
 
 echo "Redmine Issues Tree plugin"
