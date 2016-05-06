@@ -1,3 +1,5 @@
+cd plugins/
+
 echo "Accept plugin"
 git clone https://github.com/stefanzugal/accept-plugin.git accept
 
