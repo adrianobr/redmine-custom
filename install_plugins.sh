@@ -1,3 +1,4 @@
+cd ..
 cd plugins/
 
 echo "Accept plugin"
