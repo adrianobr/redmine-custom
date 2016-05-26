@@ -231,4 +231,9 @@ cd stuff_to_do_plugin
 git pull
 cd ..
 
+echo "Niko-Niko"
+cd redmine_nikoca_re
+git pull
+cd ..
+
 echo "Finalizado"
