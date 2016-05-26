@@ -137,6 +137,9 @@ echo "Notify Users"
 git clone https://github.com/Undev/notify_custom_users.git notify_custom_users
 echo "Necessario campo personalizado para envio de notificacao por e-mail"
 
+echo "Niko-Niko"
+git clone https://github.com/adrianobr/redmine_nikoca_re.git
+
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
 cd redmine_emojibutton 
