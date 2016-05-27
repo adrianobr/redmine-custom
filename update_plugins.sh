@@ -236,4 +236,9 @@ cd redmine_nikoca_re
 git pull
 cd ..
 
+echo "Presentation"
+cd redmine_presentation
+git pull
+cd ..
+
 echo "Finalizado"
