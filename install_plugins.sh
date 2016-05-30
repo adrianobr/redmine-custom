@@ -32,7 +32,7 @@ echo "Integrador 0800Net"
 git clone https://github.com/ebaptistella/integrator0800.git
 
 echo "Gamification plugin"
-git clone git://github.com/mauricio-camayo/redmine_gamification_plugin
+git clone https://github.com/marcodotcastro/redmine_gamification_plugin.git
 
 echo "Redmine Graphs plugin"
 git clone https://github.com/bradbeattie/redmine-graphs-plugin.git redmine_graphs
