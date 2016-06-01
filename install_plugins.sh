@@ -145,6 +145,10 @@ git clone https://github.com/florentsolt/redmine-presentation.git redmine_presen
 
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
+
+find / -name pt-BR.yml -exec bash -c 'mv $0 ${0/pt-BR.yml/pt-br.yml}' {} \;
+find / -name pt-br.yml -exec sed -r -i s/pt-BR/pt-br/g {} \;
+
 cd redmine_emojibutton 
 bundle install
 cd ..
