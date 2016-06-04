@@ -15,12 +15,13 @@ git clone https://github.com/stgeneral/redmine-progressive-projects-list.git pro
 
 echo "Redmine Select2 Plugin"
 git clone https://github.com/Undev/redmine__select2.git redmine__select2
-cd ..
-bundle exec rake redmine:backlogs:install
-cd plugins/
 
 echo "Redmine Backlogs"
 git clone https://github.com/AlexDAlexeev/redmine_backlogs.git
+git checkout -b redmine3 origin/feature/redmine3
+cd ..
+bundle exec rake redmine:backlogs:install
+cd plugins/
 
 echo "Redmine Banner plugin"
 git clone https://github.com/akiko-pusu/redmine_banner.git
