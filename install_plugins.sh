@@ -17,7 +17,7 @@ echo "Redmine Select2 Plugin"
 git clone https://github.com/Undev/redmine__select2.git redmine__select2
 
 echo "Redmine Backlogs"
-git clone https://github.com/AlexDAlexeev/redmine_backlogs.git
+git clone https://github.com/backlogs/redmine_backlogs.git
 git checkout -b redmine3 origin/feature/redmine3
 cd ..
 bundle exec rake redmine:backlogs:install
