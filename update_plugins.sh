@@ -241,4 +241,14 @@ cd redmine_presentation
 git pull
 cd ..
 
+echo "Deface"
+cd redmine_base_deface
+git pull
+cd ..
+
+echo "Issue Multiprojects"
+cd redmine_multiprojects_issue
+git pull
+cd ..
+
 echo "Finalizado"
