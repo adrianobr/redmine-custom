@@ -147,6 +147,10 @@ git clone https://github.com/adrianobr/redmine_nikoca_re.git
 echo "Presentation"
 git clone https://github.com/florentsolt/redmine-presentation.git redmine_presentation
 
+echo "Deface and Issue Multiprojects"
+git clone https://github.com/jbbarth/redmine_base_deface.git
+git clone https://github.com/nanego/redmine_multiprojects_issue.git
+
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
 
