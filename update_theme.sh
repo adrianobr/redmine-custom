@@ -1,3 +1,5 @@
+ cd ../public/themes/
+
 "iniciando..."
 echo "Circle"
 cd circle
