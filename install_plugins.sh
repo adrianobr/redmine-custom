@@ -134,9 +134,6 @@ git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
 echo "Redmine Mentions"
 git clone https://github.com/arkhitech/redmine_mentions.git
 
-echo "Stuff To Do"
-git clone https://github.com/Undev/redmine-stuff-to-do-plugin.git stuff_to_do_plugin
-
 echo "Notify Users"
 git clone https://github.com/Undev/notify_custom_users.git notify_custom_users
 echo "Necessario campo personalizado para envio de notificacao por e-mail"
