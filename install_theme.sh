@@ -1,3 +1,4 @@
+cd ../themes/
 "iniciando..."
 echo "Circle"
 git clone https://github.com/RCRM/circle.git
