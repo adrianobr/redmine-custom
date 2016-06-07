@@ -149,7 +149,9 @@ cd ..
 
 echo "Redmine Backlogs"
 git clone https://github.com/backlogs/redmine_backlogs.git
+cd redmine_backlogs
 git checkout -b redmine3 origin/feature/redmine3
+cd ..
 bundle exec rake redmine:backlogs:install
 
 #find / -name pt-BR.yml -exec bash -c 'mv $0 ${0/pt-BR.yml/pt-br.yml}' {} \;
