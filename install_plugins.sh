@@ -16,13 +16,6 @@ git clone https://github.com/stgeneral/redmine-progressive-projects-list.git pro
 echo "Redmine Select2 Plugin"
 git clone https://github.com/Undev/redmine__select2.git redmine__select2
 
-echo "Redmine Backlogs"
-git clone https://github.com/backlogs/redmine_backlogs.git
-git checkout -b redmine3 origin/feature/redmine3
-cd ..
-bundle exec rake redmine:backlogs:install
-cd plugins/
-
 echo "Redmine Banner plugin"
 git clone https://github.com/akiko-pusu/redmine_banner.git
 
@@ -75,7 +68,7 @@ echo "Redmine Login Audit plugin"
 git clone https://github.com/martin-denizet/redmine_login_audit.git
 
 echo "Redmine (Monitoring & Controlling | Monitoramento & Controle)"
-git clone http://github.com/alexmonteiro/Redmine-Monitoring-Controlling.git redmine_monitoring_controlling
+git clone https://github.com/alexmonteiro/Redmine-Monitoring-Controlling.git redmine_monitoring_controlling
 
 echo "Redmine Pivot Table plugin"
 git clone https://github.com/deecay/redmine_pivot_table.git
@@ -150,13 +143,19 @@ git clone https://github.com/nanego/redmine_multiprojects_issue.git
 
 echo "Redmine Emoji Button"
 git clone https://github.com/paginagmbh/redmine_emojibutton.git
-
-find / -name pt-BR.yml -exec bash -c 'mv $0 ${0/pt-BR.yml/pt-br.yml}' {} \;
-find / -name pt-br.yml -exec sed -r -i s/pt-BR/pt-br/g {} \;
-
 cd redmine_emojibutton 
 bundle install
 cd ..
+
+echo "Redmine Backlogs"
+git clone https://github.com/backlogs/redmine_backlogs.git
+git checkout -b redmine3 origin/feature/redmine3
+bundle exec rake redmine:backlogs:install
+
+#find / -name pt-BR.yml -exec bash -c 'mv $0 ${0/pt-BR.yml/pt-br.yml}' {} \;
+#find / -name pt-br.yml -exec sed -r -i s/pt-BR/pt-br/g {} \;
+
+
 
 cd ..
 echo "Finalizado a instalação de plugins"
