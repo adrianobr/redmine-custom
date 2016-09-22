@@ -1,0 +1,30 @@
+echo "--INICIANDO--"
+echo "--preparando instalacao--"
+apt-get install aptitude
+sudo aptitude update
+
+echo "verificando se suporte esta disponivel"
+sudo aptitude install linux-image-extra- 'uname -r'
+
+echo "adicionando chaves no repositorio"
+sudo sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
+
+echo "adicionando chaves docker.list"
+sudo sh -c "echo deb http://get.docker.io/ubuntu docker main\ > /etc/apt/sources.list.d/docker.list"
+
+echo "atualizando apos novo acrescimo"
+sudo aptitude update
+
+echo "instalando o docker  LXC: necessario confirmacao"
+sudo aptitude install lxc-docker
+
+echo "instalando docker compose"
+apt-get install docker-compose
+
+echo "tentando startar docker"
+service docker start
+
+echo "instalando git"
+sudo apt-get install git
+
+echo "FINALIZADO"
