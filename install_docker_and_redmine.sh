@@ -1,5 +1,6 @@
 echo "--INICIANDO--"
 echo "--preparando instalacao--"
+apt-get install aptitude
 sudo aptitude update
 
 echo "verificando se suporte esta disponivel"
