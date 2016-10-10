@@ -124,8 +124,8 @@ git clone https://github.com/staskie/simple_author_change.git
 echo "Timelog Timer plugin"
 git clone https://github.com/behigh/redmine_timelog_timer.git timelog_timer
 
-echo "Redmine Mentions"
-git clone https://github.com/arkhitech/redmine_mentions.git
+echo "Redmine CKEditor"
+git clone https://github.com/a-ono/redmine_ckeditor.git
 
 echo "Notify Users"
 git clone https://github.com/Undev/notify_custom_users.git notify_custom_users
