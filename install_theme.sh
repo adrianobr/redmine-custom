@@ -17,4 +17,7 @@ git clone https://github.com/RCRM/highrise.git
 echo "A1"
 git clone https://github.com/RCRM/a1.git
 
+echo "Improved Theme"
+git clone https://github.com/FabriceSalvaire/redmine-improved-theme.git
+
 echo "finalizado!"
