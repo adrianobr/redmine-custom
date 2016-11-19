@@ -19,5 +19,5 @@ cd ..
 echo "---INICIANDO bundle install test---"
 bundle install --without development test
 
-echo "---INICIANDO Rake Production---"
-rake redmine:plugins:migrate RAILS_ENV=production
+echo "Executando migrations de todos os plugins"
+bundle exec rake redmine:plugins:migrate RAILS_ENV=production
