@@ -14,6 +14,9 @@ git clone https://github.com/paginagmbh/redmine_lightbox2.git
 echo "Progressive Projects"
 git clone https://github.com/stgeneral/redmine-progressive-projects-list.git progressive_projects_list
 
+echo "Spent Time"
+git clone https://github.com/eyp/redmine_spent_time.git
+
 echo "Finalizado a instalação de plugins"
 echo ""
 
