@@ -17,6 +17,9 @@ git clone https://github.com/stgeneral/redmine-progressive-projects-list.git pro
 echo "Spent Time"
 git clone https://github.com/eyp/redmine_spent_time.git
 
+echo "Integração 0800Net e Redmine"
+git clone https://github.com/ebaptistella/integrator0800.git
+
 echo "Finalizado a instalação de plugins"
 echo ""
 
