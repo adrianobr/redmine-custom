@@ -1,8 +1,3 @@
-apt-get update && sudo apt-get upgrade
-apt-get install build-essential
-apt-get install aptitude
-apt-get install libstdc++6
-
 cd plugins
 echo "Issue Badge"
 git clone https://github.com/akiko-pusu/redmine_issue_badge.git redmine_issue_badge
