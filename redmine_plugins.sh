@@ -20,6 +20,9 @@ git clone https://github.com/eyp/redmine_spent_time.git
 echo "Integração 0800Net e Redmine"
 git clone https://github.com/ebaptistella/integrator0800.git
 
+echo "Editor de Texto"
+git clone https://github.com/a-ono/redmine_ckeditor.git redmine_ckeditor
+
 echo "Finalizado a instalação de plugins"
 echo ""
 
