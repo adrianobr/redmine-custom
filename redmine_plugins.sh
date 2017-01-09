@@ -23,6 +23,7 @@ git clone https://github.com/ebaptistella/integrator0800.git
 echo "Editor de Texto"
 git clone https://github.com/a-ono/redmine_ckeditor.git redmine_ckeditor
 
+cd ..
 echo "Finalizado a instalação de plugins"
 echo ""
 
@@ -74,7 +75,6 @@ echo "Feito as atualizacoes"
 echo ""
 
 cd ..
-
 echo "---INICIANDO bundle install test---"
 bundle install --without development test
 
