@@ -81,9 +81,6 @@ bundle install --without development test
 echo "Executando migrations de todos os plugins"
 bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 
-
-cd ..
-
 echo "---INICIANDO bundle install test---"
 bundle install --without development test
 
