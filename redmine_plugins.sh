@@ -26,6 +26,62 @@ git clone https://github.com/a-ono/redmine_ckeditor.git redmine_ckeditor
 echo "Finalizado a instalação de plugins"
 echo ""
 
+echo "Atualizando plugins existentes"
+echo ""
+
+cd plugins
+echo "Atualizando - Issue Badge"
+cd redmine_issue_badge
+git pull
+cd ..
+
+echo "Atualizando - Issue Favicon"
+cd redmine_issue_favicon 
+hg pull
+cd ..
+
+echo "Atualizando - Redmine Issue Templates"
+cd redmine_issue_templates
+git pull
+cd ..
+
+echo "Atualizando - Redmine LightBox"
+cd redmine_lightbox2
+git pull
+cd ..
+
+echo "Atualizando - Progressive Projects"
+cd progressive_projects_list
+git pull
+cd ..
+
+echo "Atualizando - Spent Time"
+cd redmine_spent_time
+git pull
+cd ..
+
+echo "Atualizando - Integração 0800Net e Redmine"
+cd integrator0800
+git pull
+cd ..
+
+echo "Atualizando - Editor de Texto"
+cd redmine_ckeditor
+git pull
+cd ..
+
+echo "Feito as atualizacoes"
+echo ""
+
+cd ..
+
+echo "---INICIANDO bundle install test---"
+bundle install --without development test
+
+echo "Executando migrations de todos os plugins"
+bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+
+
 cd ..
 
 echo "---INICIANDO bundle install test---"
