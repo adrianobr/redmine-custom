@@ -1,3 +1,12 @@
+echo "Atualizar/Upgrade do SO"
+apt-get update && sudo apt-get upgrade
+
+echo "Instalando o Build-Essential"
+apt-get install build-essential
+
+echo "Instalando o libstdc++6"
+apt-get install libstdc++6
+
 cd plugins
 echo "Issue Badge"
 git clone https://github.com/akiko-pusu/redmine_issue_badge.git redmine_issue_badge
