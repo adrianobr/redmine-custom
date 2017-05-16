@@ -1,11 +1,11 @@
-echo "Atualizar/Upgrade do SO"
-apt-get update && sudo apt-get upgrade
+#echo "Atualizar/Upgrade do SO"
+#apt-get update && sudo apt-get upgrade
 
-echo "Instalando o Build-Essential"
-apt-get install build-essential
+#echo "Instalando o Build-Essential"
+#apt-get install build-essential
 
-echo "Instalando o libstdc++6"
-apt-get install libstdc++6
+#echo "Instalando o libstdc++6"
+#apt-get install libstdc++6
 
 cd plugins
 echo "Issue Badge"
@@ -31,6 +31,15 @@ git clone https://github.com/ebaptistella/integrator0800.git
 
 echo "Editor de Texto"
 git clone https://github.com/a-ono/redmine_ckeditor.git redmine_ckeditor
+
+echo "Best Timer"
+git clone https://github.com/LeviticusMB/bestest_timer
+
+echo "Redmine Issues Tree"
+git clone https://github.com/Loriowar/redmine_issues_tree.git
+
+echo "Redmine Login Audit"
+git clone https://github.com/martin-denizet/redmine_login_audit.git
 
 cd ..
 echo "Finalizado a instalação de plugins"
