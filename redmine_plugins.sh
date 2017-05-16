@@ -89,6 +89,21 @@ cd redmine_ckeditor
 git pull
 cd ..
 
+echo "Atualizando - Best Time"
+cd bestest_timer
+git pull
+cd ..
+
+echo "Atualizando - Redmine Issues Tree"
+cd redmine_issues_tree
+git pull
+cd ..
+
+echo "Atualizando - Redmine Login Audit"
+cd redmine_login_audit
+git pull
+cd ..
+
 echo "Feito as atualizacoes"
 echo ""
 
